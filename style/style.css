@@ -2,8 +2,8 @@
 
 
 .banner-container{
-    width:1440;
-    height:652;
+    width:1340px;
+    height:652px;
     background-image: url('../assets/banner-photo.png');
     background-repeat: no-repeat;
     background-position: center;
@@ -61,10 +61,141 @@
     width:168px;
     height:56px;
    display:flex;
+   font-weight: 600;
    justify-content: center;
    align-items: center;
-   margin-left:240px;
+   margin-left:200px;
    margin-top:50px;
    background-color: black;
    cursor: pointer;
+   border-radius: 8px;
 }
+
+/* banner styles end here */
+
+
+
+/* web developer section styles start here */
+
+.web-dev-container{
+    width:1040;
+    height: 1168px;
+    background-color:rgba(13, 19, 33, 0.02);
+    margin:0 auto;
+    margin-top:100px;
+    margin-right:140px;
+    margin-left: 220px;
+}
+
+.web-dev-full-content{
+    width:946px;
+    height:1108px;
+    width:90%;
+    height:90%;
+    margin:0 auto;
+    margin-top:110px;
+}
+
+.web-dev-text-content {
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+
+.web-dev-text-content h2{
+    font-size:32px;
+    font-weight:800;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.web-dev-text-content p{
+    color:rgb(13, 19, 33);
+    font-size:16px;
+    font-weight:400;
+    font-family:'Times New Roman', Times, serif;
+}
+
+#web{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.web-dev-first-content{
+    width:850px;
+    height:240px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:90%;
+    margin:0 auto;
+    background-color: rgba(255, 255, 230, 1);
+    gap:50px;
+    margin-top:60px;
+   
+}
+
+.first-content-description h2{
+    font-size:22px;
+    font-weight: 700;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.first-content-description p{
+    color:rgb(13, 19, 33);
+    font-size:16px;
+    font-weight:400;
+}
+
+.web-dev-btn{
+    border:1px solid black;
+    padding:12px;
+    background-color: #f1f1f1;
+    cursor: pointer;
+}
+
+.web-dev-second-content{
+    width:850px;
+    height:240px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:90%;
+    margin:0 auto;
+    background-color: rgba(255, 255, 230, 1);
+    gap:50px;
+    margin-top:50px;
+}
+
+.second-content-description h2{
+    font-size: 20px;
+    font-weight: 700;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.web-dev-third-content{
+    width:850px;
+    height:240px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:90%;
+    margin:0 auto;
+    background-color: rgba(255, 255, 230, 1);
+    margin-top:50px;
+    gap:50px;
+}
+
+.third-content-description h2{
+    font-size: 22px;
+    font-weight: 700;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+} 
+
+.third-content-description p{
+    color:rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+}
+/* web developer section styles end here */
