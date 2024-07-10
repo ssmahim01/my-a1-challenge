@@ -91,7 +91,7 @@
 }
 
 .banner-text-content p{
-    font-size:10px;
+    font-size:13px;
     font-weight:300;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 
@@ -113,7 +113,7 @@
    font-weight: 600;
    justify-content: center;
    align-items: center;
-   margin-left:200px;
+   margin-left:250px;
    margin-top:50px;
    background-color: black;
    cursor: pointer;
