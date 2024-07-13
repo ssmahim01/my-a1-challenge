@@ -56,6 +56,7 @@
     background-size: cover;
     width:100%;
  height:100%;
+ 
 
  
 }
@@ -70,6 +71,7 @@
     flex-direction:column;
     justify-content: center;
     align-items: center;
+   
 }
 
 .banner-image{
@@ -118,6 +120,7 @@
    background-color: black;
    cursor: pointer;
    border-radius: 8px;
+   
 }
 
 /* banner styles end here */
@@ -520,3 +523,159 @@
 
 }
 /* footer styles end */
+
+
+/* media query for mobile screens */
+
+@media screen and (max-width:576px){
+    header ul, 
+    .inspiration-container,
+     .banner-container,
+     .web-dev-container,
+     .html-css-javascript,
+     .support-section-input,
+     .footer-container{
+        flex-direction:column;
+    }
+    .header-nav > nav > ul{
+        gap:10px;
+        text-align: center;
+    }
+
+    .inspiration-container{
+       width:100%;
+       height:100%;
+         margin-left:10px;
+         position:relative;
+         display:grid;
+         grid-template-rows: repeat(1, 1fr);
+         bottom:20px;
+        
+      
+    }
+   .inspiration-yt-video {
+ position:relative;
+ width:auto;
+ right:10px;
+
+   }
+   .inspiration-yt-video iframe{
+    position:relative;
+    right:30px;
+   }
+.banner-container .banner-image{
+    margin-right:100px;
+    
+    
+    
+}
+.banner-text-content{
+    
+    display:grid;
+    grid-template-rows: repeat(1, 1fr);
+    width:50%;
+    position:relative;
+    right:140px;
+  
+}
+
+.banner-text-content p{
+    padding-left:calc(50% - 150px);
+    
+}
+
+.banner-text-content h1{
+    font-size:18px; 
+    margin-right:30px;
+}
+
+.banner-container button{
+   position:relative;
+   right:110px;
+}
+
+
+.web-dev-container{
+    width:100%;
+    height:100%;
+    position:relative;
+    
+}
+
+
+.web-dev-full-content{
+    position:relative;
+    bottom:20px;
+
+}
+.web-dev-first-content{
+  
+   
+  display:grid;
+    grid-template-columns: repeat(1, 1fr);
+    position:relative;
+    height:33%;
+
+}
+
+.web-dev-second-content{
+  
+   
+  display:grid;
+    grid-template-columns: repeat(1, 1fr);
+    position:relative;
+    height:33%;
+}
+
+.web-dev-third-content{
+    
+   
+  display:grid;
+    grid-template-columns: repeat(1, 1fr);
+    position:relative;
+    height:33%;
+   
+}
+
+.current-target-description{
+    margin-left:30px;
+}
+
+.support-section-container{
+    position:relative;
+    width:100%;
+  
+}
+.support-section-content{
+
+    padding:30px;
+   
+}
+
+
+.support-section-input{
+  
+ 
+    position:relative;
+   
+bottom:10px;
+
+
+
+}
+
+.support-btn{
+    position:relative;
+    left:150px;
+}
+
+
+.footer-container{
+ /* display:grid;
+ grid-template-columns: 1fr; */
+ position:relative;
+ height:100%;
+ right:18px;
+}
+
+}
