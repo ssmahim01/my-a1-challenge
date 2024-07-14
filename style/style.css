@@ -533,7 +533,6 @@
      .banner-container,
      .web-dev-container,
      .html-css-javascript,
-     .support-section-input,
      .footer-container{
         flex-direction:column;
     }
@@ -642,33 +641,27 @@
 }
 
 .support-section-container{
-    position:relative;
+    /* position:relative; */
     width:100%;
   
 }
 .support-section-content{
 
-    padding:30px;
+    width:calc(100% - 40px);
+    position:relative;
    
 }
 
 
-.support-section-input{
-  
+.support-section-content .support-section-input{
  
+    width:90%;
     position:relative;
-   
-bottom:10px;
-
+    right:20px;
+ 
 
 
 }
-
-.support-btn{
-    position:relative;
-    left:150px;
-}
-
 
 .footer-container{
  /* display:grid;
