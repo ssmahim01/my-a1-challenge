@@ -528,6 +528,7 @@
 /* media query for mobile screens */
 
 @media screen and (max-width:576px){
+
     header ul, 
     .inspiration-container,
      .banner-container,
@@ -536,85 +537,81 @@
      .footer-container{
         flex-direction:column;
     }
+
+    .header-nav{
+        padding:0;
+    }
+
     .header-nav > nav > ul{
         gap:10px;
         text-align: center;
     }
 
+    .banner-text-content{
+        display:grid;
+        grid-template-rows: repeat(1, 1fr);
+        width:50%;
+        position:relative;
+        right:140px;
+    }
+    
+    .banner-text-content p{
+        width:78%;
+        padding-left:calc(50% - 170px);
+    }
+    
+    .banner-text-content h1{
+        font-size:18px; 
+        margin-right:30px;
+    }
+    
+    .banner-container button{
+       position:relative;
+       right:130px;
+    }
+
+    .banner-container .banner-image{
+        margin-right:100px;
+    }
+
     .inspiration-container{
        width:100%;
        height:100%;
-         margin-left:10px;
+         margin-left:5px;
          position:relative;
          display:grid;
          grid-template-rows: repeat(1, 1fr);
          bottom:20px;
-        
-      
     }
+
    .inspiration-yt-video {
  position:relative;
  width:auto;
  right:10px;
-
    }
+
    .inspiration-yt-video iframe{
     position:relative;
     right:30px;
    }
-.banner-container .banner-image{
-    margin-right:100px;
-    
-    
-    
-}
-.banner-text-content{
-    
-    display:grid;
-    grid-template-rows: repeat(1, 1fr);
-    width:50%;
-    position:relative;
-    right:140px;
-  
-}
-
-.banner-text-content p{
-    padding-left:calc(50% - 150px);
-    
-}
-
-.banner-text-content h1{
-    font-size:18px; 
-    margin-right:30px;
-}
-
-.banner-container button{
-   position:relative;
-   right:110px;
-}
-
 
 .web-dev-container{
     width:100%;
     height:100%;
     position:relative;
-    
 }
 
 
 .web-dev-full-content{
     position:relative;
     bottom:20px;
-
 }
+
 .web-dev-first-content{
-  
-   
   display:grid;
     grid-template-columns: repeat(1, 1fr);
     position:relative;
     height:33%;
-
 }
 
 .web-dev-second-content{
@@ -658,17 +655,14 @@
     width:90%;
     position:relative;
     right:20px;
- 
-
-
 }
 
 .footer-container{
  /* display:grid;
  grid-template-columns: 1fr; */
  position:relative;
- height:100%;
- right:18px;
+ width:90%;
+ height:90%;
 }
 
 }
